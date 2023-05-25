@@ -29,6 +29,7 @@ pip install uvicorn[standard]
 
 ## main.py
 ```py
+#!python
 import os
 import uvicorn
 from fastapi import FastAPI, File, UploadFile
@@ -121,7 +122,7 @@ python main.py
 
 ```sh
 uvicorn main:app --reload
-uvicorn main:app --reload --port 5000
+uvicorn main:app --reload --port 8000
 ```
 
 ## test 
