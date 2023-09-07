@@ -4,8 +4,11 @@ lerning fastapi
 ## install
 
 ```
-python -m pip install virtualenv 
-python -m venv env 
+python -m pip install virtualenv
+
+python -m venv env
+#OR
+virtualenv env
 ```
 
 ## Linux and macOS
