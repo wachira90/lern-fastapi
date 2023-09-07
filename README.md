@@ -14,7 +14,11 @@ virtualenv env
 ## Linux and macOS
 
 ```
-source env/bin/activate 
+# LINUX
+source env/bin/activate
+
+# WINDOWS
+.\env\Scripts\activate
 ```
 
 ## Windows
